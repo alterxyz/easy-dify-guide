@@ -1,31 +1,41 @@
 baseURL = 'https://ezdify.alterxyz.org/'
 title = 'Easy Dify Guide'
-theme = "learn"
+theme = "relearn"
 metaDataFormat = "yaml"
 
 [params]
-  themeVariant = "blue"
-  github_repository = "https://github.com/alterxyz/easy-dify-guide"
-  github_project_repository = "https://github.com/alterxyz/easy-dify-guide"
+author.name = "AlterXYZ"
+images = ["others/Ereshkigal.JPG"]
+# social.twitter = ""
 
-  github_banner = true
+themeVariant = [
+    { identifier = "zen-auto", name = "Zen Light/Dark", auto = [
+        "zen-light",
+        "zen-dark",
+    ] },
+    { identifier = "zen-light" },
+    { identifier = "zen-dark" },
+    { identifier = "retro-auto", name = "Retro Learn/Neon", auto = [
+        "learn",
+        "neon",
+    ] },
+    { identifier = "relearn-auto", name = "Relearn Light/Dark", auto = [
+    ] },
+    { identifier = "relearn-light" },
+    { identifier = "relearn-dark" },
+    { identifier = "relearn-bright" },
+    { identifier = "neon" },
+    { identifier = "learn" },
+    { identifier = "blue" },
+    { identifier = "green" },
+    { identifier = "red" },
+]
 
-  enableSearch = true
 
-  ordersectionsby = "weight"
-  disableNavChevron = false
-
-  description = "Developer documentation for Easy Dify"
-  author = "alterxyz"
-
-[menu]
-  [[menu.shortcuts]]
-    name = "<i class='fab fa-github'></i> GitHub"
-    identifier = "ds"
-    url = "https://github.com/alterxyz/easy-dify-guide"
-    weight = 10
-
-  [[menu.shortcuts]]
-    name = "<i class='fas fa-bug'></i> Add or Chat something?"
-    url = "https://github.com/alterxyz/easy-dify-guide/issues"
-    weight = 11
+editURL = "https://github.com/alterxyz/easy-dify-guide/edit/main/content/${FilePath}"
+disableSearch = true
+ordersectionsby = "weight"
+collapsibleMenu = true
+showVisitedLinks = true
+disableShortcutsTitle = true
+disableRootBreadcrumb = true

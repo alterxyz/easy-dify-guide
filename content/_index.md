@@ -2,8 +2,6 @@
 title: 'Easy Dify Guide'
 ---
 
-# Easy Dify Guide
-
 A friendly, easy-to-follow guide for Dify newbies
 
 ## Introduction
@@ -24,13 +22,22 @@ Some of the cases are from Dify's Discord server or GitHub issues, and some may 
 
 ## Table of Contents
 
--   Cookbooks
+- Cookbooks
 
--   You better know
+- You better know
 
--   Other Languages
+- Other Languages
 
 ## Other Languages
+
+## Install Dify
+
+```bash
+git clone https://github.com/langgenius/dify.git
+cd dify/docker
+cp .env.example .env
+docker compose up -d
+```
 
 ## Contribution
 
