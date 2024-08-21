@@ -1,4 +1,8 @@
-# easy-dify-guide
+---
+title: 'Easy Dify Guide'
+---
+
+# Easy Dify Guide
 
 A friendly, easy-to-follow guide for Dify newbies
 
@@ -20,11 +24,13 @@ Some of the cases are from Dify's Discord server or GitHub issues, and some may 
 
 ## Table of Contents
 
-- Cookbooks
+-   Cookbooks
 
-- You better know
+-   You better know
 
-- Other Languages
+-   Other Languages
+
+## Other Languages
 
 ## Contribution
 

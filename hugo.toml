@@ -1,0 +1,31 @@
+baseURL = 'https://ezdify.alterxyz.org/'
+title = 'Easy Dify Guide'
+theme = "learn"
+metaDataFormat = "yaml"
+
+[params]
+  themeVariant = "blue"
+  github_repository = "https://github.com/alterxyz/easy-dify-guide"
+  github_project_repository = "https://github.com/alterxyz/easy-dify-guide"
+
+  github_banner = true
+
+  enableSearch = true
+
+  ordersectionsby = "weight"
+  disableNavChevron = false
+
+  description = "Developer documentation for Easy Dify"
+  author = "alterxyz"
+
+[menu]
+  [[menu.shortcuts]]
+    name = "<i class='fab fa-github'></i> GitHub"
+    identifier = "ds"
+    url = "https://github.com/alterxyz/easy-dify-guide"
+    weight = 10
+
+  [[menu.shortcuts]]
+    name = "<i class='fas fa-bug'></i> Add or Chat something?"
+    url = "https://github.com/alterxyz/easy-dify-guide/issues"
+    weight = 11

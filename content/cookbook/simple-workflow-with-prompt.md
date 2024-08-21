@@ -1,4 +1,6 @@
-# Simple Workflow with Prompt engineering
+---
+title: 'Simple Workflow with Prompt engineering'
+---
 
 Video: [Simple Workflow with Prompt engineering](https://youtu.be/oLHmUPYkDGI)
 
