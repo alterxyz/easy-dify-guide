@@ -18,11 +18,11 @@ weight: 1
 
 ### How to download the DSL file?
 
-![How_to_download_from_GitHub](/static/images/how_download.gif)
+![How_to_download_from_GitHub](https://raw.githubusercontent.com/alterxyz/easy-dify-guide/main/static/images/how_download.gif)
 
 ### How to copy the prompt?
 
-![How_to_copy_prompt](/static/images/copy_prompt.gif)
+![How_to_copy_prompt](https://raw.githubusercontent.com/alterxyz/easy-dify-guide/main/static/images/copy_prompt.gif)
 
 ---
 
