@@ -5,16 +5,17 @@ metaDataFormat = "yaml"
 
 [params]
 author.name = "AlterXYZ"
-images = ["others/Ereshkigal.JPG"]
+images = ["static/images/Ereshkigal.JPG"]
 # social.twitter = ""
 
+
 themeVariant = [
+    { identifier = "learn", name = "Theme: Learn" },
+    { identifier = "neon", name = "Theme: Neon" },
     { identifier = "retro-auto", name = "Theme: Learn/Neon", auto = [
         "learn",
         "neon",
     ] },
-    { identifier = "neon" },
-    { identifier = "learn" },
     { identifier = "zen-auto", name = "Theme: Zen Auto", auto = [
         "zen-light",
         "zen-dark",
@@ -55,3 +56,6 @@ languageName = '语言: 中文'
 title = "简明 Dify"
 languageCode = 'zh'
 weight = 2
+
+[markup.goldmark.renderer]
+unsafe = true

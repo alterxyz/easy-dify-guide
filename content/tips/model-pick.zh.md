@@ -5,7 +5,7 @@ tags: ['llm', 'origin']
 
 ## Gemini
 
-感谢慷慨的 Google Cloud Platform, 提供了很大的使用额度.
+感谢慷慨的 Google Cloud Platform, 提供了很大的Gemini使用额度. <https://ai.google.dev/pricing>
 
 对于非专业用户, 建议使用 Google's Gemini model, 而不是 Vertex AI.
 

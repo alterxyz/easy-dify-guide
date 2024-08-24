@@ -4,7 +4,9 @@ title: 'About Model Selection'
 
 ## Gemini
 
-Thanks to the generous Google Cloud Platform, which provides a large usage quota.
+Thanks to the generous Google Cloud Platform, which provides good service to developers.
+
+See more at: <https://ai.google.dev/pricing>
 
 Please note that for non-professional users, it's recommended to use Google's Gemini model rather than Vertex AI.
 
