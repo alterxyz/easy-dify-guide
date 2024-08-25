@@ -1,6 +1,6 @@
 ---
 title: '模型选择'
-tags: ['llm', 'origin']
+tags: ['origin','model']
 ---
 
 ## Gemini

@@ -19,6 +19,7 @@ Thumbs.db
 # IDE/Editor folders
 .vscode/
 .idea/
+.venv/
 
 # Node modules if you're using any npm packages
 /node_modules/

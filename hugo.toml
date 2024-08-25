@@ -10,12 +10,12 @@ images = ["static/images/Ereshkigal.JPG"]
 
 
 themeVariant = [
-    { identifier = "learn", name = "Theme: Learn" },
-    { identifier = "neon", name = "Theme: Neon" },
     { identifier = "retro-auto", name = "Theme: Learn/Neon", auto = [
         "learn",
         "neon",
     ] },
+    { identifier = "learn", name = "Theme: Learn" },
+    { identifier = "neon", name = "Theme: Neon" },
     { identifier = "zen-auto", name = "Theme: Zen Auto", auto = [
         "zen-light",
         "zen-dark",

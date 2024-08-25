@@ -31,3 +31,13 @@ Some of the cases are from Dify's Discord server or GitHub issues, and some may 
 Just chill here! This is not official.
 
 Write anything in the issue, or make a pull request, I'll keep an eye on it and update it in time.
+
+Good to know: <https://github.com/openai/openai-cookbook/blob/main/CONTRIBUTING.md>
+
+### Details
+
+This repository will be automatically deployed to [EZ Dify](ezdify.alterxyz.org) with Cloudflare Pages.
+
+The theme is Hugo Relearn, if you want to make something fancy, you can check this out.
+
+<https://mcshelby.github.io/hugo-theme-relearn/index.html>

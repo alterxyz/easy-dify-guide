@@ -25,6 +25,8 @@ weight: 10
 
 一些用例来自于 Dify 的 Discord 服务器或 GitHub 问题，其中一些可能涉及有趣或鲜为人知的秘辛。
 
+> 目前, 主要更新以英文为主, 中文翻译会在后续更新. 也欢迎你来帮忙翻译[Github](https://github.com/alterxyz/easy-dify-guide)
+
 ## 贡献指南
 
 放松, 这不是官方.

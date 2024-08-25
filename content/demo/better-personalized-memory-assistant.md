@@ -9,4 +9,7 @@ title: 'Better Personalized Memory Assistant'
  allow="microphone">
 </iframe>
 
-Personalized Memory Assistant is a chatbot that know you, even you click the `new chat` button!
+> Personalized Memory Assistant is a chatbot that know you, even you click the `new chat` button!
+
+Made for {{% badge style="gray" icon="book-open" title="Cookbook" %}}Detail{{% /badge %}}
+[Personalized Memory Assistant](https://github.com/alterxyz/easy-dify-cookbook/blob/main/example/003_Real_Personalized%20Memory%20Assistant.md)

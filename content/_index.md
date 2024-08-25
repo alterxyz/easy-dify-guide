@@ -2,35 +2,55 @@
 title: 'Easy Dify Guide'
 ---
 
-A friendly, easy-to-follow guide for Dify newbies
+A Friendly, Easy-to-Follow Guide for Dify Newcomers
 
 ## Introduction
 
-This is a guide for most Dify users from beginner to advanced.
+This guide is designed for Dify users of all levels, from beginners to advanced.
 
-Handcrafted with ❤️ by [AlterXYZ](https://github.com/alterxyz/easy-dify-guide)
+Crafted with ❤️ by [AlterXYZ](https://github.com/alterxyz/easy-dify-guide)
 
-This is a personal project, not an official guide from Dify.
+Please note that this is a personal project and not an official guide from Dify.
 
-This applies [first principles](https://en.wikipedia.org/wiki/First_principle) thinking, but the internet meme version.
+This guide applies [first principles](https://en.wikipedia.org/wiki/First_principle) thinking, simplified for easy understanding.
 
-I will make is as simple as possible.
+Our goal is to make this guide as straightforward as possible.
 
-Most part from this guide is based on my own experience, so it may not be 100% accurate, and **may not up to date**.
+Most of the content is based on personal experience, so it may not be 100% accurate or up-to-date.
 
-Some of the cases are from Dify's Discord server or GitHub issues, and some may involve interesting or little-known secrets (with privacy-sensitive information removed).
+Some examples are sourced from Dify's Discord server or GitHub issues, and may include interesting or lesser-known information (with sensitive details removed).
+
+{{% expand title="Author's Thoughts (Click to expand)" %}}
+
+- Dify's official documentation has room for improvement. They're busy with development and expansion; their efforts are far greater than we imagine.
+
+- Maybe you can say that this guide is an Eng-to-Eng translation.
+
+- My original thought was "I'll just whip this up in GitHub Markdown and call it a day." LOL!
+
+- I'm happy to answer many questions, but a significant portion are actually covered in the documentation.
+
+- When I open the docs to find a specific section and plan to share a link, I often think: "Sorry, I don't really want to read this either 😂. Let me just explain how to solve the problem simply by typing it out."
+    {{% /expand %}}
 
 ## Table of Contents
 
-- Cookbooks
+- [Cookbook (Index)](/cookbook)
 
-- You better know
+- [Tips (Good to Know)](/tips): Helpful advice for better use of Dify.
 
-- Other Languages
+- [Demo](/demo): Dify applications that pair well with the Cookbook.
 
-## Other Languages
+## About this Site
 
-## Install Dify
+This site is made with Hugo Relearn theme, delivered by Cloudflare Pages, hosted on GitHub.
+
+At the left bottom corner, the first line is the language switcher, and the second line is the theme switcher.
+
+Enjoy your reading!
+
+
+## Installing Dify
 
 ```bash
 git clone https://github.com/langgenius/dify.git
@@ -41,6 +61,9 @@ docker compose up -d
 
 ## Contribution
 
-Just chill here! This is not official.
+Feel free to engage with this project! Remember, it's not an official guide.
 
-Write anything in the issue, or make a pull request, I'll keep an eye on it and update it in time.
+Also Thanks for reading! If you have any questions or suggestions, please write in the issue or make a pull request at [GitHub](https://github.com/alterxyz/easy-dify-guide), or simply contact me through [Discord](https://discord.gg/FngNHpbcY7).
+
+{{% button href="https://discord.gg/FngNHpbcY7" icon="fab fa-discord" %}}{{% /button %}}
+{{% button href="https://github.com/alterxyz/easy-dify-guide" icon="fab fa-github" %}}{{% /button %}}

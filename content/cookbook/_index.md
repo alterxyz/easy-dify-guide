@@ -118,6 +118,9 @@ def main(auth_bearer: str) -> dict:
 
 {{% badge style="red" icon="exclamation" title="Level" %}}Advance{{% /badge %}}
 
+{{% badge style="gray" icon="book-open" title="Cookbook" %}}Detail{{% /badge %}}
+[Personalized Memory Assistant](https://github.com/alterxyz/easy-dify-cookbook/blob/main/example/003_Real_Personalized%20Memory%20Assistant.md)
+
 {{% badge style="gray" icon="book-open" title="Cookbook" %}}DSL File{{% /badge %}}
 [DSL](https://github.com/alterxyz/easy-dify-cookbook/blob/main/DSL/Personalized%20Memory%20Assistant.yml)
 
@@ -128,7 +131,3 @@ def main(auth_bearer: str) -> dict:
 
 - You will need an Cloudflare account.
 - You must finished the [Cloudflare KV for Persistent Storage](cookbook/#cloudflare-kv-for-persistent-storage) first.
-
----
-
-Good to know: <https://github.com/openai/openai-cookbook/blob/main/CONTRIBUTING.md>
