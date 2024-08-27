@@ -54,6 +54,9 @@ weight: 1
 {{% badge style="gray" icon="book-open" title="Cookbook" %}}Detail{{% /badge %}}
 [Code block](https://github.com/alterxyz/easy-dify-cookbook/blob/main/example/001_code_block.md)
 
+{{% badge style="gray" icon="book-open" title="Cookbook" %}}Extra{{% /badge %}}
+[Python Debug](https://github.com/alterxyz/easy-dify-cookbook/blob/main/example/001.1_code_block_python_debug.md)
+
 {{% badge style="gray" icon="book-open" title="Cookbook" %}}DSL File{{% /badge %}}
 [DSL](https://github.com/alterxyz/easy-dify-cookbook/blob/main/DSL/Your%20Code~.yml)
 
