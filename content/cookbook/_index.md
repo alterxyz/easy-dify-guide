@@ -101,6 +101,26 @@ def main(auth_bearer: str) -> dict:
 
 ---
 
+## Dify Agent inside Chatflow or Workflow
+
+{{% badge style="red" icon="user-secret" %}}Hack{{% /badge %}}
+**Allow you to use Dify Agent inside Chatflow or Workflow, just like the "Workflow as tool" feature.**
+
+This is a hack solution, not a official feature. Offical feature is coming soon.
+
+{{% badge style="gray" icon="book-open" title="Cookbook" %}}Detail{{% /badge %}}
+[Dify Agent inside Chatflow or Workflow](https://github.com/alterxyz/easy-dify-cookbook/blob/main/hack/agent_in_workflow.md)
+
+{{% badge style="tip" %}}Requirement{{% /badge %}}
+
+I implemented with one-shot agent, so no history. I also implemented this with 1 input variable, you can either remove it, or use it, or add more of it.
+
+**So modify code is required.**. However, you can try to use the code generator with the prompt I provided above, bring my code and the prompt, chat with some smart LLM like GPT-4o or Claude 3.5 Sonnet that help you modify the code.
+
+![image](https://github.com/user-attachments/assets/2c80f051-4fe3-4ea8-a2a6-b3ad7be86088)
+
+---
+
 ## Cloudflare KV for Persistent Storage
 
 {{% badge style="blue" icon="bookmark" title="Level" %}}Intermediate{{% /badge %}}
@@ -130,7 +150,11 @@ def main(auth_bearer: str) -> dict:
 {{% badge style="orange" icon="hand-sparkles" title="Demo" %}}Try this{{% /badge %}}
 [Personalized Memory Assistant](/demo/better-personalized-memory-assistant/)
 
+{{% badge style="red" icon="user-secret" %}}Hack{{% /badge %}}
+**2024-09-22 Out of date, conversation variable can greatly reduce the complexity of this example.**
+
 {{% badge style="tip" %}}Requirement{{% /badge %}}
 
 - You will need an Cloudflare account.
 - You must finished the [Cloudflare KV for Persistent Storage](cookbook/#cloudflare-kv-for-persistent-storage) first.
+
